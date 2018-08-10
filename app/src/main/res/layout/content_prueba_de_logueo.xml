@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PruebaDeLogueo" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp"
+        />
+
+  <!-- <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="fill_parent"
+        android:background="@drawable/shape_fb"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="60dp"/>-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="6dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.38">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="56dp"
+        android:layout_height="140dp"
+        android:background="@drawable/launcher"
+        android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.62">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_dos"
+        android:layout_width="match_parent"
+
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginRight="@dimen/text_margin"
+        android:layout_marginBottom="@dimen/text_margin"
+        android:layout_marginTop="@dimen/text_margin"
+        android:layout_below="@+id/login_button"
+        android:hint="Nombre de usuario"
+        android:textColorHint="@color/colorAccent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/userText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_alignParentStart="true" />
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_uno"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:layout_marginRight="@dimen/text_margin"
+        android:layout_marginBottom="@dimen/text_margin"
+
+        android:layout_below="@+id/input_dos"
+        android:hint="Contraseña"
+        android:textColorHint="@color/colorAccent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/passText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_marginBottom="8dp"
+            android:layout_alignParentLeft="true" />
+
+
+
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_login"
+        android:textColor="@color/white"
+        android:text="Entrar"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/input_uno"
+        android:layout_alignParentLeft="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/olvidaste"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:text="¿Olvidaste tu contraseña?"/>
+        </LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>

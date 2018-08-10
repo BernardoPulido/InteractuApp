@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+
+
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.95"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/manualnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/manualmensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@string/roboto_light"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+    <ImageView
+
+        android:src="@drawable/ic_keyboard_arrow_right_black_18dp"
+        android:id="@+id/imgmanuales"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:layout_weight="0.05"
+        android:padding="5dp" />
+
+</LinearLayout>

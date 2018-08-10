@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#607D8B</color>
+    <color name="loginBackground">#DADFE1</color>
+    <color name="white">#EEEEEE</color>
+    <color name="colorhint">#bdc3c7</color>
+    <color name="colorFacebook">#3b5998</color>
+
+    <color name="screen1">#81C784</color>
+    <color name="screen2">#E57373</color>
+    <color name="screen3">#009688</color>
+    <color name="screen4">#607D8B</color>
+    <color name="screen5">#0277BD</color>
+    <color name="screen6">#5C6BC0</color>
+    <color name="screen7">#00ACC1</color>
+    <color name="silver">#bdc3c7</color>
+    <color name="silver2">#D2D7D3</color>
+    <color name="aux1">#2574A9</color>
+    <color name="aux2">#336E7B</color>
+</resources>

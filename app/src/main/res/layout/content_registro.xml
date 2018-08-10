@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Registro.Registro"
+    tools:showIn="@layout/activity_registro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="11dp"
+                android:orientation="vertical">
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Nombre" />-->
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_nombre"
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/text_margin"
+                    android:hint="Nombre"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:textColorHint="@color/colorAccent"
+
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/nombre"/>
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Apellidos" />-->
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_apellidos"
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/text_margin"
+                    android:hint="Apellidos"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:layout_gravity="center_horizontal"
+                        android:textColorHint="@color/colorAccent"
+
+                        android:id="@+id/apellido"/>
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+            <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Edad" />-->
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_edad"
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/text_margin"
+                    android:hint="Edad"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:textColorHint="@color/colorAccent"
+
+                        android:ems="10"
+                        android:layout_gravity="center_horizontal"
+
+                        android:id="@+id/edad"
+                        android:inputType="number" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Email" />-->
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_correoele"
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/text_margin"
+                    android:hint="Correo electrónico"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:textColorHint="@color/colorAccent"
+
+
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/correo"/>
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Nombre de usuario" />-->
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_username"
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/text_margin"
+                    android:hint="Nombre de usuario"
+                    android:layout_height="wrap_content">
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColorHint="@color/colorAccent"
+
+                        android:inputType="textPersonName"
+
+
+                        android:id="@+id/username"/>
+
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Contraseña" />-->
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_Contraseña"
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/text_margin"
+                    android:hint="Contraseña"
+                    android:layout_height="wrap_content">
+
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:textColorHint="@color/colorAccent"
+
+
+                        android:ems="10"
+                        android:id="@+id/pass"
+                        android:layout_gravity="center_horizontal" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Repetir contraseña" />-->
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_repetirpass"
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/text_margin"
+                    android:hint="Repetir contraseña"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorAccent"
+
+                        android:inputType="textPassword"
+                        android:ems="10"
+
+                        android:id="@+id/pass2"
+                        android:layout_gravity="center_horizontal" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_login"
+            android:textColor="@color/white"
+
+
+            android:layout_marginTop="14dp"
+            android:text="Registrar"
+            android:layout_below="@+id/passText"
+            android:layout_alignParentLeft="true" />
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

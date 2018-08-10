@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="permitirGPS"
+        android:summary="Permitir que la InteractuApp acceda a tu ubicación en caso de requerirse"
+        android:title="@string/permiso_gps" />
+
+    <PreferenceScreen
+        android:title="Mi pefil"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:summary="Editar perfil de usuario">
+        <intent
+            android:targetClass="com.example.bernardo.seguridadpersonal.PerfilConf"
+            android:targetPackage="com.example.bernardo.seguridadpersonal"/>
+
+
+
+    </PreferenceScreen>
+
+
+
+</PreferenceScreen>

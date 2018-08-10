@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Datos de alerta">
+
+
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue=""
+        android:hint="Identificador de alerta"
+        android:inputType="textCapWords"
+        android:key="nombrealerta"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Identificador de alerta"
+        android:icon="@drawable/ic_bookmark_black_24dp"
+        android:title="Alerta" />
+    <PreferenceScreen
+        android:title="Patrón de voz"
+        android:key="iniciardialogo"
+        android:icon="@drawable/ic_record_voice_over_black_24dp"
+        android:summary="Palabra o frase que detonará la alerta">
+
+    </PreferenceScreen>
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue=""
+        android:hint="Mensaje"
+        android:inputType="textMultiLine"
+        android:lines="5"
+
+        android:key="mensaje"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:icon="@drawable/ic_mail_outline_black_24dp"
+        android:summary="Escribe un texto no mayor a 250 caracateres que se enviará junto a la alerta"
+        android:title="Mensaje de alerta" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Medios de alerta">
+        </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Facebook">
+
+        <CheckBoxPreference
+            android:key="facebook"
+            android:title="Alertar por Facebook"
+            android:checked="false"
+            android:summary="Publica o alerta por medio de esta red social"
+            android:defaultValue="false"/>
+
+        </PreferenceCategory>/
+    <PreferenceCategory
+        android:title="Twitter">
+        <CheckBoxPreference
+            android:key="twitter"
+            android:title="Alertar por Twitter"
+            android:summary="Alerta por medio de esta red social"
+            android:defaultValue="false"/>
+        <!--
+        <PreferenceScreen
+            android:title="Contactos a alertar"
+            android:key="personasTwitter"
+
+            android:summary="Elige a las personas que deseas alertar por Twitter">
+        </PreferenceScreen>-->
+        </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Telegram">
+        <CheckBoxPreference
+            android:key="telegram"
+            android:title="Alertar por Telegram"
+            android:summary="Alertar por este medio"
+            android:defaultValue="false"/>
+        <PreferenceScreen
+            android:title="Contactos a alertar"
+            android:key="contactosTelegram"
+            android:enabled="true"
+            android:summary="Elige a las personas que deseas alertar por Telegram">
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Extra">
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue=""
+
+            android:hint="4921027963"
+            android:inputType="textCapWords"
+            android:key="numero"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Ingresa un número telefónico a quien se llamará en caso de emergencia"
+            android:title="Llamada de emergencia" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="amigos"
+            android:summary="Alertar a través de este medio"
+            android:title="Mecanismo amigo vigilante" />
+
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:title="Eliminar alerta"
+        android:summary="Deshabilitar permanentemente la alerta"
+        android:key="eliminar">
+    </PreferenceScreen>
+
+</PreferenceScreen>

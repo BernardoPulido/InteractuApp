@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:title="Alerta importante"
+        android:key="alertaTitulo"
+        android:icon="@drawable/ic_priority_high_black_24dp"
+        android:summary="Configurar alerta">
+        <intent
+            android:targetClass="com.example.bernardo.seguridadpersonal.AlertasConf"
+            android:targetPackage="com.example.bernardo.seguridadpersonal"/>
+
+
+    </PreferenceScreen>
+
+</PreferenceScreen>

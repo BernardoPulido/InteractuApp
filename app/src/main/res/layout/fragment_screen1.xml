@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:background="@color/screen1"
+    android:weightSum="6"
+    android:paddingTop="48dp">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.9">
+
+            <FrameLayout
+                android:id="@+id/image_container"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_weight="1.1"
+                android:clipChildren="false">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="16dp"
+                    android:scaleType="centerInside"
+
+
+                    android:src="@drawable/banner4" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/screen_heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+
+
+                    android:fontFamily="@string/roboto_condensed"
+                    android:gravity="bottom|center_horizontal"
+                    android:paddingRight="24dp"
+                    android:text="Analiza"
+                    android:textColor="#ffffff"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/screen_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@string/roboto_light"
+
+                    android:gravity="top|center_horizontal"
+                    android:minHeight="10dp"
+                    android:paddingRight="24dp"
+                    android:text="información que antes\ndesconocias"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@android:color/transparent" />
+
+
+            </LinearLayout>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>

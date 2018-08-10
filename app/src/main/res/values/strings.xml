@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">InteractuApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Acerca de</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="facebook_app_id">544416735739784</string>
+    <string name="title_activity_login_activityy">LoginActivityy</string>
+    <string name="title_activity_prueba_de_logueo">Acceso</string>
+    <string name="informacion">Registro</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="passHint">Contraseña</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_condensed">sans-serif-condensed</string>
+
+    //Datos de menu de inicio
+    <string name="menuinicioNombre">Luis Bernardo</string>
+    <string name="menuinicioApellido">Pulido Gaytan</string>
+    <string name="menuinicioEdad">23 años</string>
+    <string name="menuinicioCorreo">luis.bernardo.pulido@gmail.com</string>
+    <string name="menuinicioUser">BernyPulido</string>
+    <string name="menuinicioAlerta1">Hola soy Bernardo</string>
+
+
+    <string name="large_text">"\nA través de la aplicación de seguridad personal, tu y tus amigos podrán configurar alertas como planes de contingencia, que serán utilizadas en un momento de emergencia con tal sólo el uso de tu voz. "
+        "Podrás predefinir a quienes alertar, a través de que medios (Twitter, Facebook, Telegram, Mecanismo Amigo Vigilante o una llamada de emergencia) y que frase o palabra tendrás que mencionar para que la aplicación haga todo el trabajo.\n\n\rSeguirémos trabajando para brindarte un mejor servicio que contribuya a tu seguridad personal, porque recuerda que ayudar a los demás es como ayudarse a sí mismo."
+
+    </string>
+    <string name="title_activity_configuraciones">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="permiso_gps">Permitir acceso a ubicación</string>
+
+    <string name="facebook_app_name">HelloFBSample</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Post ID: %1$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected&gt;</string>
+    <string name="no_place_selected">&lt;No place selected&gt;</string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+    <string name="app_id">355198514515820</string>
+    <string name="fb_login_protocol_scheme">fb355198514515820</string>
+    <string name="exception">Exception: %1$s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_perfiles_configuraciones">PerfilesConfiguraciones</string>
+    <string name="title_activity_perfil_conf">Perfil de usuario</string>
+    <string name="title_activity_alertas_conf">Configuración de alerta</string>
+    <string name="title_activity_acciones">Acciones</string>
+    <string name="title_activity_actividad_prueba">ActividadPrueba</string>
+    <string name="title_activity_pruebas">Pruebas</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+
+    <!--Datos de acceso a Twitter
+    <string name="twitter_callback">http://javatechig.android.app</string>
+    <string name="twitter_consumer_key">4T74tkftHw8YyVxORaYJIOZct</string>
+    <string name="twitter_consumer_secret">1AoDPB4aMwo7njrMRG4ycIrTB582xZMZrRhW6vjd3GkSljPRCX</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>-->
+
+    <string name="twitter_callback">http://javatechig.android.app</string>
+    <string name="twitter_consumer_key">pUuD8McO7mwqQIma0l7vRopXS</string>
+    <string name="twitter_consumer_secret">kDO4XTihzvRiX71deXXQVvoFNev0p7w6thfc35SXeeQS2VFaSh</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="notificacion_activado_notification_title_template">Seguridad Personal %1$s
+    </string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="notificacion_activado_notification_placeholder_text_template">%1$sEn este momento la aplicación se encuentra a la escucha de tu voz en espera de algún patrón de voz predefinido, puedes cancelar esta acción en cualquier momento.
+    </string>
+
+    <string name="action_share">Compartir</string>
+    <string name="action_reply">Terminar</string>
+    <string name="aboutus"></string>
+    <string name="quienessomos">¿Quíenes somos?</string>
+    <string name="descripcionquiensomos">Luis Bernardo Pulido Gaytan</string>
+    <string name="descripcionquiensomos2">M. en C. Roberto Oswaldo Cruz Leija</string>
+    <string name="descripcionquiensomos3">M. en C. Héctor Alejandro Acuña Cid</string>
+    <string name="title_activity_about_us">Acerca de</string>
+    <string name="contactous">seguridad.personal.app@gmail.com</string>
+    <string name="title_activity_how_work">HowWork</string>
+    <string name="title_activity_watson">Watson</string>
+
+
+</resources>

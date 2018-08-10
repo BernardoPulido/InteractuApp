@@ -1,0 +1,204 @@
+#
+# generated on 2016/08/17 09:06:52
+#
+# --table-start--
+dataClass=db.Alertas
+tableName=alertas
+# --table-fields-start--
+# --field-start--
+fieldName=idAlerta
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=nombreAlerta
+width=45
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=patronDetonante
+width=25
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=mensaje
+width=250
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=idUsuario
+canBeNull=false
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=db.AmigoVigilante
+tableName=amigos_vigilantes
+# --table-fields-start--
+# --field-start--
+fieldName=idAmigoVigilante
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=amigoRecepetor
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=amigoEmisor
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=correoAmigoReceptor
+width=45
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=correoAmigoEmisor
+width=45
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=mensaje
+width=250
+# --field-end--
+# --field-start--
+fieldName=estatus
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=db.HistorialAlertas
+tableName=historial_alertas
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=medioConexion
+width=150
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=alertaDeVoz
+width=45
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=mensaje
+width=250
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=posicionGPS
+width=45
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=fecha
+width=45
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=hora
+width=45
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=idUsuario
+canBeNull=false
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=db.MediosConexion
+tableName=medios_conexion
+# --table-fields-start--
+# --field-start--
+fieldName=idMedio
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=medio
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=personas
+width=450
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=idAlerta
+canBeNull=false
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=db.Parametros
+tableName=parametros
+# --table-fields-start--
+# --field-start--
+fieldName=idParametro
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=descripcion
+width=200
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=descripcion2
+width=200
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=db.Usuario
+tableName=usuarios
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=nombre
+width=100
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=apellidos
+width=100
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=edad
+# --field-end--
+# --field-start--
+fieldName=username
+width=100
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=contrasena
+width=16
+# --field-end--
+# --field-start--
+fieldName=correo
+width=45
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=tipoRegistro
+canBeNull=false
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

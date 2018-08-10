@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Datos de perfil">
+
+
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="Luis Bernardo"
+            android:key="name"
+            android:maxLines="1"
+            android:hint="Identificador de alerta"
+            android:inputType="textCapWords"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Nombre"
+            android:summary="Nombre de usuario"/>
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="Pulido Gaytan"
+            android:inputType="textCapWords"
+            android:key="apellidos"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Apellidos usuario"
+            android:title="Apellidos" />
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="23"
+            android:inputType="number"
+            android:key="edad"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="23 años"
+            android:title="Edad de usuario" />
+        <PreferenceScreen
+            android:title="Correo electrónico"
+            android:key="email"
+            android:summary="Correo usuario">
+
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="Nombre de usuario"
+            android:key="username"
+            android:summary="Username">
+
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="Cambiar contraseña"
+            android:key="pass"
+            android:summary="Clave de autentificación a la aplicación">
+
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>

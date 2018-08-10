@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/maindrawerber1">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Configuración" />
+
+        <item
+            android:id="@+id/historial"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Interacciones" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/maindrawerber2">
+
+        <item android:title="Información">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_info_black_24dp"
+                    android:title="Acerca de" />
+
+            </menu>
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/maindrawerber3">
+        <item
+            android:id="@+id/cerrar"
+            android:icon="@drawable/ic_cancel_black_24dp"
+            android:title="Cerrar sesión" />
+
+    </group>
+
+</menu>
